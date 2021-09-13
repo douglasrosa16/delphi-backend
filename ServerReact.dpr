@@ -18,11 +18,16 @@ var
   App : THorse;
 
 begin
-  App := THorse.Create(9000);
+  try
+    App := THorse.Create(9000);
+  except
+    THorse.StopListen;
+  end;
 
   App.Use(Jhonson);
   //Controller de Entidades
   ServerReact.Controller.USERS.Registry(App);
 
   App.Start;
+
 end.
