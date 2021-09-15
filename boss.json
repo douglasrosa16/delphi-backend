@@ -9,6 +9,7 @@
 		"https://github.com/bittencourtthulio/simpleorm": "^2.02.03",
 		"https://github.com/ezequieljuliano/datasetconverter4delphi": ">0.0.0",
 		"https://github.com/hashload/horse": "^2.0.13",
+		"https://github.com/hashload/horse-cors": "^1.0.3",
 		"https://github.com/hashload/jhonson": "^1.1.2"
 	}
 }

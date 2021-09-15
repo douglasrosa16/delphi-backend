@@ -8,7 +8,7 @@
 			"hash": "985da2054d3c705bc211797c653e47ba",
 			"artifacts": {},
 			"failed": false,
-			"changed": true
+			"changed": false
 		},
 		"https://github.com/bittencourtthulio/simpleorm": {
 			"name": "simpleorm",
@@ -30,6 +30,14 @@
 			"name": "horse",
 			"version": "2.0.13",
 			"hash": "985da2054d3c705bc211797c653e47ba",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"https://github.com/hashload/horse-cors": {
+			"name": "horse-cors",
+			"version": "1.0.3",
+			"hash": "248f37dd844f5a4c4ff78364e5a86027",
 			"artifacts": {},
 			"failed": false,
 			"changed": false
